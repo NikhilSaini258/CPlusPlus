@@ -45,11 +45,6 @@ int main()
     printUsingStdFunction(obj);			// calling same method using functors
     printUsingStdFunction([]() {		// calling same method using lambda
 		cout << "from labmda" << endl; 
-		});
-    
-    
+		});  
     return 0;
 }
-
-
-
